@@ -42,7 +42,7 @@ DELETE FROM bestelling_riesling
 ;
 
 -- Toon resultaat.
-Select * FROM bestelling_riesling;
+SELECT * FROM bestelling_riesling;
 
 -- Verwijder alle records van de tabel.
 TRUNCATE TABLE bestelling_riesling;
