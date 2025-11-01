@@ -159,6 +159,14 @@ FROM exam_info_2;
 SELECT LOG(Scores) AS ransformedScores
 FROM exam_info_2;
 
+-- Sorteer oplopend (ASC) of aflopend (DESC)
+SELECT *
+FROM exam_info_2
+ORDER BY Scores ASC;
+
+SELECT *
+FROM exam_info_2
+ORDER BY Scores DESC;
 
 -- ***
 -- Date formats
